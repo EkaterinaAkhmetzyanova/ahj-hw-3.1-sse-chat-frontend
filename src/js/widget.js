@@ -16,7 +16,6 @@ export default class Widget {
     init() {
         this.login.init();
         this.parentEl.addEventListener('connect', this.chatWidget);
-        this.modal.classList.add('hidden');
     }
 
     chatWidget() {
